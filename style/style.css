@@ -161,6 +161,96 @@ nav {
 }
 
 
+/* 2nd part */
+
+.banner-btn {
+    display: flex;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.go-btn {
+    background: #4EC5F7;
+}
+
+.banner-image {
+    width: 50%;
+}
+
+/* game section styles */
+
+.gamer-container {
+    /* border: 2px solid red; */
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 50px 240px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    ;
+}
+
+.gamer-img {
+    width: 100%;
+}
+
+.gamer-img img {
+    width: 100%;
+}
+
+.gamer-content {
+    width: 80%;
+    text-align: end;
+    padding-left: 50px;
+}
+
+.gamer-content h2 {
+    margin-bottom: 25px;
+}
+
+.know-button {
+    margin: 28px 0px;
+}
+
+.tag-line {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+/* Online games section styles */
+
+.online-funny {
+    /* border: 2px solid red; */
+    max-width: 1920px;
+    margin: 0px auto;
+    padding: 80px 240px;
+    text-align: center;
+}
+
+.online-funny p {
+    margin-top: 15px;
+}
+
+.card-container {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.card-content {
+    width: 100%;
+}
+
+.card-content p {
+    text-align: left;
+}
+
+.card-content img {
+    width: 100%;
+}
 
 
 
