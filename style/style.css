@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* font input work sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* nav section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+    padding-left:240px ;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.logo-G {
+    color: #FF42A5;
+}
+
+.logo img {
+    width: 86.041px;
+    height: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.logo-text {
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.nav-right-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.follow-us {
+    display: flex;
+    gap: 24px;
+}
+
+.tik-you {
+    display: flex;
+    gap: 16px;
+}
+
+.about-us .developers {
+    color: #3C354F;
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.Follow-us-text {
+    color: #3C354F;
+
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.follow-us{
+    background-color:rgba(11, 2, 35, 0.10) ;
+    border-radius: 8px;
+    align-items: center;
+    padding: 17px 24px;
+    
+    margin-right: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive mobile */
+@media screen and ( max-width:425px){
+nav{
+    
+    flex-direction: column;
+    align-content: center;
+}
+}
